@@ -1,0 +1,19 @@
+body{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  max-width: 1240px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b0d4e3+0,88bacf+100;Grey+3D+%233 */
+  background: rgb(176,212,227); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(176,212,227,1) 0%, rgba(136,186,207,1) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    box-sizing: border-box;
+}
+#game{
+  border: 1px solid red;
+  padding: 10px;
+  padding-bottom: auto;
+}
