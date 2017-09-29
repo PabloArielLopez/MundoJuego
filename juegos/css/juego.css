@@ -17,3 +17,13 @@ body{
   padding: 10px;
   padding-bottom: auto;
 }
+
+#sev:checked ~ #game{
+  height: 700px;
+}
+#fiv:checked ~ #game{
+  height: 500px;
+}
+#thre:checked ~ #game{
+  height: 300px;
+}
