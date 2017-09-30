@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="css/juego.css">
     <link rel="stylesheet" type="text/css" href="css/menu_responsive.css">
-    <script src="js.js"></script>
+    <script src="js/zoom.js"></script>
   </head>
 
 <body>
@@ -22,20 +22,21 @@
       </ul>
     </nav>
   </header>
+  <div id="barra">
+  <input class="button" type="button" onClick="zoomDown()" value="-"/>
+  <input class="button" type="button" onClick="zoomUp()" value="+"/>
+  <h1>Pacman Advanced</h1>
+  </div>
 
-<a>700px</a>
-<input type="checkbox" id="sev">
-<a>300px</a>
-<input type="checkbox" id="thre">
+
 <div id="game">
   <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10.0.0.0" width="550" height="400">
     <param name="movie" value="archivoflash.swf" />
     <param name="quality" value="high" />
-    <embed src="swf/pacman_advanced.swf" quality="high" type="application/x-shockwave-flash"  width="100%" height="100%" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+    <embed id="logo" src="swf/pacman_advanced.swf" quality="high" type="application/x-shockwave-flash"  width="100%" height="100%" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
 </object>
 </div>
-    <meta http-equiv="refesh" content="2" />
-</div>
-</div>
+
+  <meta http-equiv="reresh" content="2" />
 </body>
 </html>
