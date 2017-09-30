@@ -12,18 +12,20 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     box-sizing: border-box;
 }
+
 #game{
   border: 1px solid red;
-  padding: 10px;
+  /*padding-left: 20%;
+  padding-right: 20%*/
   padding-bottom: auto;
-}
-
-#sev:checked ~ #game{
-  height: 700px;
-}
-#fiv:checked ~ #game{
   height: 500px;
 }
-#thre:checked ~ #game{
-  height: 300px;
+
+.button{
+  padding-top: 0px;
+  padding-bottom: 32px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
 }
