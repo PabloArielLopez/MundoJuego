@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/juego.css">
+    <link rel="stylesheet" type="text/css" href="css/menu_responsive.css">
+    <script src="js/zoom.js"></script>
+  </head>
+
+<body>
+
+  <header>
+    <input type="checkbox" id="btn-menu">
+      <label for="btn-menu"><img id="img" src="../ico/men.png"></label>
+    <nav class="menu">
+      <ul>
+        <li><a href="../main.html">Inicio</a></li>
+        <li><a href="">Acción</a></li>
+        <li><a href="">Aventura</a></li>
+        <li><a href="">Carreras</a></li>
+        <li><a href="">Clasicos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="barra">
+  <input class="button" type="button" onClick="zoomDown()" value="-"/>
+  <input class="button" type="button" onClick="zoomUp()" value="+"/>
+  <h1>Noughts and Crosses</h1>
+  </div>
+
+
+<div id="game">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10.0.0.0" width="550" height="400">
+    <param name="movie" value="archivoflash.swf" />
+    <param name="quality" value="high" />
+    <embed id="logo" src="swf/noughts_and_crosses.swf" quality="high" type="application/x-shockwave-flash"  width="100%" height="100%" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object>
+</div>
+
+  <meta http-equiv="reresh" content="2" />
+</body>
+</html>
