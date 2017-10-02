@@ -1,39 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   width: 98%;
   margin-left: auto;
   margin-right: auto;
   min-width: 320px;
   max-width: 1240px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b0d4e3+0,88bacf+100;Grey+3D+%233 */
-  background: rgb(176,212,227); /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, rgba(176,212,227,1) 0%, rgba(136,186,207,1) 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(176,212,227,1) 0%,rgba(136,186,207,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    box-sizing: border-box;
+  background-color: yellow;
+  box-sizing: border-box;
 }
 
 #game{
   border: 1px solid red;
+  margin-top: 22px;
   /*padding-left: 20%;
   padding-right: 20%*/
   padding-bottom: auto;
+
   height: 500px;
 }
 #barra{
   border: 1px solid blue;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
 }
 h1{
   font-size: 20px;
+  float: left;
 }
 .button{
-  float: left;
+  border-radius: 23px 23px 23px 23px;
+  border:2px solid red;
+  float: right;
 font-size: 30px;
-padding-left: 15px;
-margin-top: 5px;
-margin-left: 5px;
+padding-left: 13px;
+margin-top: 4px;
 margin-right: 10px;
-padding-right: 15px;
+margin-bottom: 4px;
+padding-right: 13px;
 }
 .button:hover{
     cursor: pointer;
