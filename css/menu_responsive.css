@@ -1,6 +1,6 @@
 header{
   width: 100%;
-  background:#4E94AB;
+  background:#25A2D7;
 }
 #btn-menu{
   display: none;
@@ -14,7 +14,7 @@ header label{
   width: 50px;
   height: 50px;
   padding: 0px;
-  background-color: #4E94AB;
+  background-color: #25A2D7;
 }
 header label:hover{
   cursor: pointer;
@@ -31,6 +31,7 @@ header label:hover{
 .menu li{
 flex-grow: 1;
 border-right: 1px solid black;
+border-bottom: 1px solid black;
 }
 
 .menu li:hover{
@@ -49,7 +50,7 @@ header label{
 }
 .menu{
   position: absolute;
-  background: #4E94AB;
+  background: #25A2D7;
   width: 70%;
   margin-left: -80%;
   transition: all 0.1s;
@@ -59,6 +60,8 @@ header label{
 }
 .menu li{
   border-top: 1px solid black;
+  border-right: 0px solid black;
+  border-bottom: 0px solid black;
 }
 
 #btn-menu:checked ~ .menu{
