@@ -1,6 +1,6 @@
 header{
   width: 100%;
-  background:#25A2D7;
+  background:#0C658A;
 }
 #btn-menu{
   display: none;
@@ -14,7 +14,7 @@ header label{
   width: 50px;
   height: 50px;
   padding: 0px;
-  background-color: #25A2D7;
+  background-color: #0C658A;
 }
 header label:hover{
   cursor: pointer;
@@ -30,7 +30,7 @@ header label:hover{
 
 .menu li{
 flex-grow: 1;
-border-right: 1px solid black;
+
 }
 
 .menu li:hover{
@@ -49,7 +49,7 @@ header label{
 }
 .menu{
   position: absolute;
-  background: #25A2D7;
+  background: #0C658A;
   width: 70%;
   margin-left: -80%;
   transition: all 0.1s;
